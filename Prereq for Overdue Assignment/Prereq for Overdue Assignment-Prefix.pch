@@ -1,0 +1,17 @@
+//
+//  Prereq for Overdue Assignment-Prefix.pch
+//  Prereq for Overdue Assignment
+//
+//  Created by Matthew Linaberry on 11/11/14.
+//  Copyright (c) 2014 Matthew Linaberry. All rights reserved.
+//
+
+#ifndef Prereq_for_Overdue_Assignment_Prereq_for_Overdue_Assignment_Prefix_pch
+#define Prereq_for_Overdue_Assignment_Prereq_for_Overdue_Assignment_Prefix_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#define USER_NAME @"name"
+#define USER_PASSWORD @"password"
+
+#endif

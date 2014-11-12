@@ -40,6 +40,7 @@
 		A3E3E4FD1A12B42E008B7ADA /* Prereq for Overdue AssignmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Prereq for Overdue AssignmentTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3E3E5021A12B42E008B7ADA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A3E3E5031A12B42E008B7ADA /* Prereq_for_Overdue_AssignmentTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Prereq_for_Overdue_AssignmentTests.m; sourceTree = "<group>"; };
+		A3E3E50D1A12B4F8008B7ADA /* Prereq for Overdue Assignment-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Prereq for Overdue Assignment-Prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +99,7 @@
 			children = (
 				A3E3E4E81A12B42E008B7ADA /* Info.plist */,
 				A3E3E4E91A12B42E008B7ADA /* main.m */,
+				A3E3E50D1A12B4F8008B7ADA /* Prereq for Overdue Assignment-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -343,6 +345,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Prereq for Overdue Assignment/Prereq for Overdue Assignment-Prefix.pch";
 				INFOPLIST_FILE = "Prereq for Overdue Assignment/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -353,6 +357,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Prereq for Overdue Assignment/Prereq for Overdue Assignment-Prefix.pch";
 				INFOPLIST_FILE = "Prereq for Overdue Assignment/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
